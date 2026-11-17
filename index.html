@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Conservation | Save Our Planet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">🌿 GreenEarth</a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#importance">Importance</a></li>
+                <li><a href="#wildlife">Wildlife</a></li>
+                <li><a href="#action">Take Action</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">PROTECT NATURE, PROTECT LIFE</p>
+            <h1>Save Forests.<br>Save Our Future.</h1>
+
+            <p>
+                Forests are the lungs of our planet. Protecting them
+                means protecting wildlife, fighting climate change,
+                and securing a greener future for generations to come.
+            </p>
+
+            <a href="#action" class="btn">Join the Green Movement</a>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section class="section" id="importance">
+        <div class="section-heading">
+            <p class="subtitle">WHY FORESTS MATTER</p>
+            <h2>Nature Needs Our Protection</h2>
+            <p>
+                Forests sustain life on Earth and maintain the balance
+                of our natural environment.
+            </p>
+        </div>
+
+        <div class="cards">
+            <article class="card">
+                <div class="card-icon">🌍</div>
+                <h3>Fight Climate Change</h3>
+                <p>
+                    Trees absorb carbon dioxide, store carbon, and
+                    help regulate the Earth's climate.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">💧</div>
+                <h3>Protect Water and Soil</h3>
+                <p>
+                    Forests support the water cycle, reduce soil erosion,
+                    and help maintain healthy ecosystems.
+                </p>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🌱</div>
+                <h3>Support Biodiversity</h3>
+                <p>
+                    Forests provide food, shelter, and breeding grounds
+                    for countless plant and animal species.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Wildlife Section -->
+    <section class="wildlife-section" id="wildlife">
+        <div class="wildlife-image"></div>
+
+        <div class="wildlife-content">
+            <p class="subtitle">EVERY SPECIES MATTERS</p>
+            <h2>Protect Wildlife, Preserve Life</h2>
+
+            <p>
+                Forests are home to tigers, elephants, deer, birds,
+                insects, and countless other living organisms.
+                When forests disappear, animals lose their habitats
+                and face increasing threats to their survival.
+            </p>
+
+            <p>
+                By protecting forests, stopping illegal wildlife
+                hunting, and supporting conservation projects,
+                we can help preserve biodiversity.
+            </p>
+
+            <a href="#action" class="btn">Protect Their Home</a>
+        </div>
+    </section>
+
+    <!-- Deforestation Section -->
+    <section class="deforestation-section">
+        <div class="section-heading">
+            <p class="subtitle">A GROWING ENVIRONMENTAL CHALLENGE</p>
+            <h2>Stop Deforestation</h2>
+            <p>
+                Cutting down forests destroys habitats, contributes
+                to climate change, and threatens the balance of nature.
+            </p>
+        </div>
+
+        <div class="warning-cards">
+            <div class="warning-card">
+                <span>🪓</span>
+                <h3>Reduce Tree Cutting</h3>
+                <p>Support responsible forestry and avoid unnecessary destruction of trees.</p>
+            </div>
+
+            <div class="warning-card">
+                <span>📄</span>
+                <h3>Use Less Paper</h3>
+                <p>Reuse paper, recycle whenever possible, and choose digital alternatives.</p>
+            </div>
+
+            <div class="warning-card">
+                <span>🌳</span>
+                <h3>Restore Green Spaces</h3>
+                <p>Plant suitable native trees and help protect existing forests.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Take Action Section -->
+    <section class="action-section" id="action">
+        <div class="action-content">
+            <p class="subtitle">SMALL STEPS, BIG IMPACT</p>
+            <h2>Be the Change Our Planet Needs</h2>
+            <p>
+                A sustainable future begins with the choices we make
+                every day. Start with one action and inspire others.
+            </p>
+
+            <div class="action-list">
+                <label>
+                    <input type="checkbox">
+                    Plant and care for native trees
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Reduce, reuse, and recycle paper
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Avoid products linked to forest destruction
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Keep forests clean and respect wildlife
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    Spread awareness about conservation
+                </label>
+            </div>
+
+            <button class="btn" id="pledge-btn">
+                Make a Green Pledge
+            </button>
+
+            <p id="pledge-message" class="pledge-message"
+               aria-live="polite"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="footer-logo">🌿 GreenEarth</a>
+        <p>Protecting forests today for a greener tomorrow.</p>
+        <p class="copyright">
+            &copy; <span id="year"></span> GreenEarth |
+            Forest Conservation Awareness Project
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
